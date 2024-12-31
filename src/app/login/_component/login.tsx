@@ -12,7 +12,7 @@ import { useEffect, useState } from 'react';
 
 const images = [logo1, logo2, logo3];
 
-export default function LoginForm() {
+export default function Login() {
     const [imageIndex, setImageIndex] = useState(0);
     const [fade, setFade] = useState(true);
 
