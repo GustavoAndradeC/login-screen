@@ -31,8 +31,8 @@ export default function Login() {
     }, []);
 
     return (
-        <div className="h-screen flex items-center justify-evenly p-4 overflow-hidden">
-            <Card className="w-1/2 max-w-md border-0 shadow-none">
+        <div className="h-screen flex items-center justify-evenly p-4 overflow-hidden flex-col md:flex-row">
+            <Card className="w-full md:w-1/2 max-w-md border-0 shadow-none">
                 <CardHeader>
                     <CardTitle className="flex items-center gap-2 text-2xl">
                         Bem vindo de volta
@@ -136,7 +136,9 @@ export default function Login() {
                     </p>
                 </CardContent>
             </Card>
-            <Card className="w-full md:w-1/2 max-w-md h-auto md:h-full border-0 shadow-none overflow-hidden">
+
+            {/* Card with Image */}
+            <Card className="w-full md:w-1/2 max-w-md h-auto md:h-full border-0 shadow-none overflow-hidden hidden md:block">
                 <CardContent className="p-0 h-full flex items-center justify-center">
                     <Image
                         src={images[imageIndex]}
