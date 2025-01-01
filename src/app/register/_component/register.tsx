@@ -55,10 +55,10 @@ export default function Register() {
                         /> */}
                     </CardTitle>
                     <p className="text-sm text-muted-foreground">
-                        Hoje é um novo dia. É o seu dia. Você o molda.
+                        Crie sua conta e comece a gerenciar seus projetos.
                     </p>
                     <p className="text-sm text-muted-foreground">
-                        Crie sua conta e comece a gerenciar seus projetos.
+                        Hoje é um novo dia. É o seu dia. Você o molda.
                     </p>
                 </CardHeader>
                 <CardContent className="space-y-4">
