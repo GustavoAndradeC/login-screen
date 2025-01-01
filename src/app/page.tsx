@@ -1,7 +1,5 @@
-import LoginForm from "./components/loginForm";
-
 export default function Home() {
   return (
-    <LoginForm />
+    <h1>Olá mundo</h1>
   );
 }
